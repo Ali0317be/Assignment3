@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.razormist.simplequizapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_two"
+        android:layout_centerHorizontal="true"
+        android:text="Github" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_three"
+        android:layout_centerHorizontal="true"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_four"
+        android:layout_centerHorizontal="true"
+        android:text="Quiz" />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="My Profile" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="208dp"
+        android:layout_height="106dp"
+        android:layout_above="@+id/btn_one"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="286dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="50sp"
+        android:text="Ali Saad"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_one"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="347dp"
+        android:text="BITF18A538" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="184dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="113dp"
+        android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="631dp"
+        android:text="Mobile Compting Assignment" />
+
+</RelativeLayout>

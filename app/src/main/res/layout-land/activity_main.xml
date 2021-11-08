@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.razormist.simplequizapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_two"
+        android:layout_centerHorizontal="true"
+        android:text="Github" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_three"
+        android:layout_centerHorizontal="true"
+        android:text="Share" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_four"
+        android:layout_centerHorizontal="true"
+        android:text="Quiz" />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="336dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Screenshot" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="50sp"
+        android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landscape View" />
+
+</RelativeLayout>
