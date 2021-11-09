@@ -8,41 +8,38 @@
 
     <Button
         android:id="@+id/btn_one"
-        android:layout_width="347dp"
+        android:layout_width="358dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_two"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="125dp"
         android:text="Github" />
 
     <Button
-        android:id="@+id/btn_two"
-        android:layout_width="339dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_three"
-        android:layout_centerHorizontal="true"
-        android:text="Share" />
-
-    <Button
         android:id="@+id/btn_three"
-        android:layout_width="339dp"
+        android:layout_width="358dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btn_four"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="6dp"
         android:text="Quiz" />
 
     <Button
         android:id="@+id/btn_four"
-        android:layout_width="336dp"
-        android:layout_height="36dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:text="Screenshot" />
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="13dp"
+        android:text="My Profile" />
 
     <TextView
         android:id="@+id/tv_question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="123dp"
         android:gravity="center_horizontal"
         android:paddingTop="50sp"
         android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ "
