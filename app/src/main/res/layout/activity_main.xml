@@ -7,14 +7,22 @@
     tools:context="com.razormist.simplequizapp.MainActivity">
 
     <Button
-        android:id="@+id/btn_one"
-        android:layout_width="293dp"
+        android:id="@+id/button1"
+        android:layout_width="298dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="146dp"
-        android:text="Github Profile" />
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="160dp"
+        android:onClick="gotoURl"
+        android:text="GO TO Repository"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_three"
