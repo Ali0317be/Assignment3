@@ -65,8 +65,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="714dp"
+        android:layout_height="400dp"
         android:src="@drawable/screenshot__110_" />
 
 </RelativeLayout>
