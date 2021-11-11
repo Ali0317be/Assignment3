@@ -11,6 +11,8 @@ import android.widget.Button;
 public class MainActivity4 extends AppCompatActivity {
 
     private Button button3;
+    Button btn;
+
 
 
 
@@ -30,6 +32,14 @@ public class MainActivity4 extends AppCompatActivity {
             }
 
         });
+        btn = (Button) findViewById(R.id.button12);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity10.class);
+                startActivity(intent);
+            }
 
+        });
     }
 }
